@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+
+  <link rel="stylesheet" href="healthsitestyle.css" />
+
+</head>
+<style>
+body{
+    background-image: url('bob.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div.transbox {
+  margin: 200px;
+  background-color: #ffffff;
+  /*background-color: #800000;*/
+  border: 1px solid black;
+  opacity: 0.6;
+}
+
+div.transbox p {
+  margin: 30%;
+  font-weight: bold;
+  /*color: #000000;*/
+  color: #ff9900;
+
+}
+h1 {text-align: center;}
+</style>
+
+<body>
+
+  <div class="dropdown">
+  <button class="dropbtn">Click here to learn more</button>
+  <div class="dropdown-content">
+    <a href="nutrition.html">Check this out to get nutrition tips</a>
+    <a href="exercise.html">Check this out to get exercise tips</a>
+
+  </div>
+
+</div>
+  <div class="transbox">
+      <h1 style="color:Blue;">Your Guide to a Healthy Lifestyle</h1>
+      <h3>Hello! Welcome to our site, which will provide you with detailed insight
+        into staying healthy and reaching your fitness goals. Developed by Yash Gupta
+        and Karthik Sundar, the site, and its key feature, a chatbot, will help you
+        apprehend the steps that you need to take in order to reach your goal. By taking
+        in key information, which includes your height, weight, fitness goal, injuries,
+        and allergies, our advanced chatbot will compute and return a fairly detailed
+        diet and fitness plan catered for your goals. The central ideology with our research,
+        and hence our chatbot, is that any body goal can be attained by tackling two elements:
+        nutrition and exercise. This is precisely what our chatbot factors in. We hope you are able
+        to find your perfect lifestyle.</h3>
+
+
+
+      </p>
+    </div>
+  </div>
+
+  <script type="text/javascript">
+      (function(d, m){
+          var kommunicateSettings =
+              {"appId":"31af9c9d72a6349b7d2e81f3d82ce002f","popupWidget":true,"automaticChatOpenOnNavigation":true};
+          var s = document.createElement("script"); s.type = "text/javascript"; s.async = true;
+          s.src = "https://widget.kommunicate.io/v2/kommunicate.app";
+          var h = document.getElementsByTagName("head")[0]; h.appendChild(s);
+          window.kommunicate = m; m._globals = kommunicateSettings;
+      })(document, window.kommunicate || {});
+  /* NOTE : Use web server to view HTML files as real-time update will not work if you directly open the HTML file in the browser. */
+  </script>
+</body>
+</html>
